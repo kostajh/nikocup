@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<title>NIKO HARLAN - NIKO CUP AGAINST CANCER - THE TOURNAMENT</title>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAzQ-upEH8X7V9RWhyXeGBbhQXHkTmM_AZH08YjXmkVK2sdwAK9xTcgsTXlwN0JdTvKykw5IR_z6RSfw"></script>
+<script type="text/javascript">
+function initialize() {
+	if (GBrowserIsCompatible()) {
+		var myLatlng = new google.maps.LatLng(35.9959, -78.9452);
+        var map = new GMap2(document.getElementById("map_canvas"));
+		map.addControl(new GSmallMapControl());
+        map.setCenter(myLatlng, 13);
+
+		var marker = new GMarker(myLatlng);
+		map.addOverlay(marker);
+		var contentString = '<div id="infoContent"><h1 id="firstHeading" class="firstHeading">Niko Cup Against Cancer</h1>'+
+			'<div id="bodyContent"><p>The <b>Niko Cup</b>, ....<br /><br />To get directions from your location, '+
+			'<a href="http://maps.google.com/maps?hl=en&source=hp&q=35.99599756843659,+-78.9452059803009&ie=UTF8&hq=&hnear=%2B35%C2%B0+59%27+45.59%22,+-78%C2%B0+56%27+42.74%22&gl=us&ei=vw1fS7rVOYeXtgeK6YmCDA&ved=0CAgQ8gEwAA&z=14">'+
+			'click here</a>.</div></div>';
+		GEvent.addListener(marker, "click", function() {
+			marker.openInfoWindowHtml(contentString);
+		});
+	}
+}
+</script>
+</head>
+<body onload="initialize()" onunload="GUnload()">
+<div id="container">
+	<div id="header" style="background-image:url(images/header2_lo.jpg)";>
+		<div id="header_text">
+			<p>Make a donation today and help Niko's family</p>
+			<!-- <a href="https://org2.democracyinaction.org/o/5715/t/8974/shop/custom.jsp?donate_page_KEY=1768">Make a donation now!</a> //-->
+		</div>
+		<ul>
+			<li><a href="http://www.nikocup.com/">About the Niko Cup</a></li>
+			<li><a href="http://www.nikocup.com/tournament.html"><font color="#28556b">Niko Cup Tournament</font></a></li>
+			<li><a href="http://www.nikocup.com/fundraising.html">Niko Cup Fundraising</a></li>
+			<li><a href="http://www.nikocup.com/media.html">Niko Cup Media</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="full">
+			<br/>
+			<div id="flashcontent">
+				<p><b><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Click here to update your flash player</a></b></p>
+			</div>
+			<p>The tournament was held at 8:30 AM on February 21, 2010.  The games were played at the West Campus turf fields at Duke University.</p>
+			<p>Below is a map to the turf fields.  To get directions from your location, <a href="http://maps.google.com/maps?hl=en&source=hp&q=35.99599756843659,+-78.9452059803009&ie=UTF8&hq=&hnear=%2B35%C2%B0+59%27+45.59%22,+-78%C2%B0+56%27+42.74%22&gl=us&ei=vw1fS7rVOYeXtgeK6YmCDA&ved=0CAgQ8gEwAA&z=14">click here</a>.</p>
+		  	<div id="map_canvas" style="width: 670px; height: 450px"></div>
+		</div>		
+		<div id="footerline"></div>
+	</div>
+	<div id="footer">Copyright &copy; 2010 NIKO CUP.  All rights reserved.</div>	
+</div>
+<script type="text/javascript">
+var so = new SWFObject("bracket.swf", "bracket", "680", "470", "8", "#FFFFFF");
+so.write("flashcontent");
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-188233-7");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	title=""
+	textColor="FFFFFF"
+	frameColor="28556B"
+	thumbPosition="BOTTOM"
+	galleryStyle="COMPACT"
+	thumbColumns="8"
+	thumbRows="1"
+	showOpenButton="FALSE"
+	showFullscreenButton="FALSE"
+	frameWidth="0"
+	maxImageWidth="800"
+	maxImageHeight="600"
+	imagePath="images/"
+	thumbPath="thumbs/"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""
+>
+<image imageURL="images/team_losgringos.jpg" thumbURL="thumbs/team_losgringos.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Lo's Gringos]]></caption>
+</image>
+<image imageURL="images/team_knightswhosayniko.jpg" thumbURL="thumbs/team_knightswhosayniko.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[The Knights Who Say Ni(ko)!]]></caption>	
+</image>
+<image imageURL="images/team_tcellsunited.jpg" thumbURL="thumbs/team_tcellsunited.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[T-Cells United]]></caption>	
+</image>
+<image imageURL="images/team_harlanglobekickers.jpg" thumbURL="thumbs/team_harlanglobekickers.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[The Harlan Globe Kickers]]></caption>	
+</image>
+<image imageURL="images/team_nikosarsenal.jpg" thumbURL="thumbs/team_nikosarsenal.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Niko's Arsenal]]></caption>	
+</image>
+<image imageURL="images/team_nikounitedfc.jpg" thumbURL="thumbs/team_nikounitedfc.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Niko United FC]]></caption>	
+</image>
+<image imageURL="images/team_sixnikoteers.jpg" thumbURL="thumbs/team_sixnikoteers.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[The Six Nikoteers]]></caption>	
+</image>
+<image imageURL="images/team_kicksforniko.jpg" thumbURL="thumbs/team_kicksforniko.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Kicks for Niko]]></caption>	
+</image>
+<image imageURL="images/nikocup_group.jpg" thumbURL="thumbs/nikocup_group.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Players, Friends and Family - The Niko Cup]]></caption>	
+</image>
+<image imageURL="images/niko_with_cup.jpg" thumbURL="thumbs/niko_with_cup.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Niko with The Cup]]></caption>	
+</image>
+<image imageURL="images/niko_presents_trophy.jpg" thumbURL="thumbs/niko_presents_trophy.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[Niko presents The Cup to tournament winners, The Knights Who Say Ni(ko)!]]></caption>	
+</image>
+</simpleviewergallery>
